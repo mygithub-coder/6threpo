@@ -5,15 +5,13 @@ pipeline {
     }
     tools {
         maven 'M2_HOME'
-        jdk 'JDK-8'
+       
     }
     stages {
         stage ('Build') {
-            agent {
-              label 'build'
-            }
+            
             steps {
-                dir ('source') {
+                dir ('source/Hello-world-CICD-master') {
                     sh '''mvn -Dmaven.test.failure.ignore=true clean install
                           cp -R target/*.war ansible/hello-world.war'''
                 }
