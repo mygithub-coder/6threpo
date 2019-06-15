@@ -4,7 +4,7 @@ pipeline {
         checkoutToSubdirectory('source')
     }
     tools {
-        maven 'M2_HOME'
+        maven 'Maven123'
        
     }
     stages {
