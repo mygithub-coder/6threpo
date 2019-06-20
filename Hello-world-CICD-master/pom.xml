@@ -79,7 +79,7 @@
 </build>
 <distributionManagement>
 <repository> 
-<id>example-repo-local</id> 
+<id>artifactory</id> 
 <url>http://54.67.121.175:8081/artifactory/webapp/#/artifacts/browse/tree/EffectivePermission/my-maven-repo/</url> 
 </repository>
 </distributionManagement>
