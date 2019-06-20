@@ -81,7 +81,7 @@
 
 <repository>
   
-<id>my-maven-repo</id>
+<id>org.reddy</id>
   
 <url>http://54.67.121.175:8081/artifactory/webapp/#/artifacts/browse/tree/EffectivePermission/my-maven-repo/</url>
   
